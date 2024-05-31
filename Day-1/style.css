@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+/*  width: 100;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+}
+.container .card-instagram {
+  padding: 2rem;
+  background-color: blueviolet;
+  border: 1px solid white;
+  color: #fff;
+  border-radius: 10%;
+  box-shadow: 1px 1px 1px rgba(1, 1, 1, 1.0);
+}
+.card-instagram h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+/*img*/
+.card-instagram img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+.card-instagram p {
+  margin-top: 2rem;
+}
+/*p*/
+.card-instagram p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/*button*/
+.card-instagram .btn {
+  margin-top: .7rem;
+  font-size: 1.5rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+.card-instagram .btn:hover {
+  background-color: violet;
+}

@@ -1,0 +1,13 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.container img {
+  width: 250px;
+}
+.container .sinop {
+  width: 600px;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
