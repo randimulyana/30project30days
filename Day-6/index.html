@@ -1,32 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Day-3 | Project 3</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-6 | Project-6</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>My Animes List</h1>
-      <div class="card-list">
-        <h2>Jujutsu Kaisen Zero</h2>
-        <img src="img/jjk-s0.jpg" alt="Jujutsu Kaisen Zero" />
-        <a href="jjk0_detail.html">detail</a>
-        <a href="#">view</a>
-      </div>
-      <div class="card-list">
-        <h2>Jujutsu Kaisen S-1</h2>
-        <img src="img/jjk-s1.jpg" alt="" />
-        <a href="#">detail</a>
-        <a href="#">view</a>
-      </div>
-      <div class="card-list">
-        <h2>Jujutsu Kaisen S-2</h2>
-        <img src="img/jjk-s2.jpg" alt="" />
-        <a href="#">detail</a>
-        <a href="#">view</a>
-      </div>
+    <!-- JUMBOTRON START -->
+    <div class="jumbotron text-center">
+      <img src="img/profile.jpg" class="img-circle" />
+      <h1>Randi Mulyana</h1>
+      <p>Programer | Youtuber |Student</p>
     </div>
+    <!-- JUMBOTRON END -->
+
+    <!-- ABOUT START -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-2">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+              nobis, nostrum ipsum ex sint sequi veritatis vitae nemo,
+              praesentium harum laboriosam itaque excepturi aliquid dicta
+              voluptate, quas iusto odio unde!
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              eaque perferendis architecto, vel culpa neque soluta dolorem
+              fugiat minus sint nemo, sequi repellendus tenetur blanditiis
+              reiciendis. Voluptatem corrupti voluptate omnis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- PORTFOLIO START -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Portfolio</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portfolio/1.jpg" class="thumbnail" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portfolio/1.jpg" class="thumbnail" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portfolio/1.jpg" class="thumbnail" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portfolio/1.jpg" class="thumbnail" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portfolio/1.jpg" class="thumbnail" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portfolio/1.jpg" class="thumbnail" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO END -->
+
+    <!-- CONTACT START -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Contact</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-7 col-sm-offset-3">
+            <div class="form-grup">
+              <label for="nama">Nama</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="masukan nama"
+              />
+            </div>
+            <div class="form-grup">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="masukan password"
+              />
+            </div>
+            <div class="form-grup">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="masukan email"
+              />
+            </div>
+            <div class="form-grup">
+              <label for="pesan">Pesan</label>
+              <textarea
+                rows="10"
+                class="form-control"
+                placeholder="masukan pesan anda"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT END -->
+
+    <!-- FOOTER START -->
+    <footer id="footer" class="footer text-center">
+      <p>Copyright 2024 <a href="">RandzCode</a></p>
+    </footer>
+    <!-- FOOTER END -->
   </body>
 </html>

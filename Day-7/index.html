@@ -3,149 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Day-7 | Project 7</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- JUMBOTRON START -->
-    <div class="jumbotron text-center">
-      <img src="img/profile.jpg" class="img-circle" />
-      <h1>Randi Mulyana</h1>
-      <p>Programer | Youtuber |Student</p>
+    <!-- === Header start === -->
+    <div id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <nav>
+              <div class="img"><img src="img/profile.jpg" /></div>
+
+              <div class="menu">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="hilight">
+              <div class="timline">
+                <h1>Intro</h1>
+                <p>Some introduction lines about the website or company</p>
+              </div>
+              <img src="img/profile.jpg" width="700px" height="300px" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- JUMBOTRON END -->
+    <!-- === Header end === -->
 
-    <!-- ABOUT START -->
-    <section id="about" class="about">
+    <!-- === Galery Start -->
+    <div id="galeri" class="galery">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2 class="text-center">About</h2>
-            <hr />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 col-sm-offset-2">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-              nobis, nostrum ipsum ex sint sequi veritatis vitae nemo,
-              praesentium harum laboriosam itaque excepturi aliquid dicta
-              voluptate, quas iusto odio unde!
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              eaque perferendis architecto, vel culpa neque soluta dolorem
-              fugiat minus sint nemo, sequi repellendus tenetur blanditiis
-              reiciendis. Voluptatem corrupti voluptate omnis?
-            </p>
+            <div class="items">
+              <img src="img/profile.jpg" width="350px" />
+              <img src="img/profile.jpg" width="350px" />
+              <img src="img/profile.jpg" width="350px" />
+              <img src="img/profile.jpg" width="350px" />
+              <img src="img/profile.jpg" width="350px" />
+              <img src="img/profile.jpg" width="350px" />
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ABOUT END -->
+    </div>
+    <!-- === Galery End -->
 
-    <!-- PORTFOLIO START -->
-    <section id="portfolio" class="portfolio">
+    <!-- Twetter Feed start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="tweet">
+            <h2>Twetter Feed</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Twetter Feed end -->
+
+    <!-- === Footer start -->
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2 class="text-center">Portfolio</h2>
-            <hr />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/portfolio/1.jpg" class="thumbnail" />
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/portfolio/1.jpg" class="thumbnail" />
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/portfolio/1.jpg" class="thumbnail" />
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/portfolio/1.jpg" class="thumbnail" />
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/portfolio/1.jpg" class="thumbnail" />
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/portfolio/1.jpg" class="thumbnail" />
-            </a>
+            <div class="foot">
+              <div class="menu">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+              </div>
+              <div class="copy">
+                <p>Copyright info</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- PORTFOLIO END -->
-
-    <!-- CONTACT START -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center">Contact</h2>
-            <hr />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-7 col-sm-offset-3">
-            <div class="form-grup">
-              <label for="nama">Nama</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="masukan nama"
-              />
-            </div>
-            <div class="form-grup">
-              <label for="password">Password</label>
-              <input
-                type="password"
-                class="form-control"
-                placeholder="masukan password"
-              />
-            </div>
-            <div class="form-grup">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                placeholder="masukan email"
-              />
-            </div>
-            <div class="form-grup">
-              <label for="pesan">Pesan</label>
-              <textarea
-                rows="10"
-                class="form-control"
-                placeholder="masukan pesan anda"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Kirim Pesan!</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- CONTACT END -->
-
-    <!-- FOOTER START -->
-    <footer id="footer" class="footer text-center">
-      <p>Copyright 2024 <a href="">RandzCode</a></p>
     </footer>
-    <!-- FOOTER END -->
+    <!-- === Footer end -->
   </body>
 </html>
